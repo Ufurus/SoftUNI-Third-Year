@@ -3,18 +3,17 @@ import time
 numbers = [int(num) for num in input().split()]
 target_number = int(input())
 
-found_numbers = {}
-
 start = time.time()
-for i in numbers:
-    for j in numbers:
-        if i + j == target_number:
-            if i not in found_numbers and j not in found_numbers:
-                if i != j:
-                    found_numbers[i] = j
-
-for first_num,second_num in found_numbers.items():
-    print(f"{first_num} + {second_num} = {first_num + second_num}")
+for i in range(len(numbers)):
+    if numbers[i] == '':
+        continue
+    for j in range(i + 1, len(numbers)):
+        if numbers[j] == '':
+            continue
+        if numbers[i] + numbers[j] == target_number:
+            print(f"{numbers[i]} + {numbers[i]} = {target_number}")
+            numbers[i] = ''
+            numbers[j] = ''
 
 end = time.time()
 print(f"Time range: {end-start}")

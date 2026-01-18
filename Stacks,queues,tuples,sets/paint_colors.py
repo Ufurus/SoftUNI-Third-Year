@@ -23,8 +23,6 @@ while given_string:
         if len(second_string) > 1:
             given_string.insert(len(given_string) // 2, second_string[:-1])
 
-
-
 for color in found_colors:
     if color in secondary_colors:
         for el in secondary_colors[color]:

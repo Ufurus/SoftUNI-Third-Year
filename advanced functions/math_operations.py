@@ -1,5 +1,4 @@
 def math_operations(*args, **kwargs):
-    current_index = 0
 
     for target_index, num in enumerate(args):
         target_index = target_index % 4

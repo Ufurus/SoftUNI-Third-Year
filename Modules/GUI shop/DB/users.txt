@@ -1,0 +1,6 @@
+{"username": "slav", "password": "1234", "first_name": "slav", "last_name": "genadiev", "products": []}
+{"username": "slav", "password": "1234", "first_name": "fn", "last_name": "ln", "products": []}
+{"username": "tosho", "password": "123", "first_name": "fn", "last_name": "ln", "products": []}
+{"username": "pesho", "password": "123", "first_name": "fn", "last_name": "ln", "products": []}
+{"username": "ceci", "password": "123", "first_name": "fn", "last_name": "ln", "products": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+{"username": "toshka", "password": "123", "first_name": "fn", "last_name": "ln", "products": []}

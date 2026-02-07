@@ -1,0 +1,3 @@
+{"id": 1, "name": "first car", "img_path": "Chervena_kola.png", "count": 2}
+{"id": 2, "name": "good car", "img_path": "Chervena_kola.png", "count": 25}
+{"id": 3, "name": "bad car", "img_path": "Chervena_kola.png", "count": 16}
